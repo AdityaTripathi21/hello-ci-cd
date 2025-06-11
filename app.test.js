@@ -9,5 +9,5 @@ expect(greet("Alice")).toBe("Hello, Alice!");
 });
 
 test('handles empty string', () => {
-expect(greet("'")).toBe("Hello, World!");
+expect(greet("")).toBe("Hello, World!");
 });
