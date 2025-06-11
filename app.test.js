@@ -1,4 +1,4 @@
-const greet = require('•/app');
+const greet = require('./app');
 
 test('greets world when no name', () => {
 expect(greet()).toBe("Hello, World!");
